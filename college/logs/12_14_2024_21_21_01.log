@@ -1,0 +1,25 @@
+[2024-12-14 21:26:13,115] 1114 aioice.ice - INFO - Connection(0) Remote candidate "5c330599-6b60-449b-85c7-899d0a1a3533.local" resolved to 192.168.1.9
+[2024-12-14 21:26:14,110] 1114 aioice.ice - INFO - Connection(0) Remote candidate "cee2e85e-7a79-4b4c-ae07-494ab51daf19.local" could not be resolved
+[2024-12-14 21:26:14,110] 103 streamlit_webrtc.webrtc - INFO - Track audio received
+[2024-12-14 21:26:14,111] 148 streamlit_webrtc.webrtc - INFO - Add a track <aiortc.rtcrtpreceiver.RemoteStreamTrack object at 0x00000295BA68DBB0> of kind audio to <aiortc.rtcpeerconnection.RTCPeerConnection object at 0x00000295BAC23020>
+[2024-12-14 21:26:14,111] 103 streamlit_webrtc.webrtc - INFO - Track video received
+[2024-12-14 21:26:14,111] 148 streamlit_webrtc.webrtc - INFO - Add a track <aiortc.rtcrtpreceiver.RemoteStreamTrack object at 0x00000295BA6276B0> of kind video to <aiortc.rtcpeerconnection.RTCPeerConnection object at 0x00000295BAC23020>
+[2024-12-14 21:26:14,126] 1114 aioice.ice - INFO - Connection(0) Could not bind to 169.254.29.170 - [WinError 10049] The requested address is not valid in its context
+[2024-12-14 21:26:14,126] 1114 aioice.ice - INFO - Connection(0) Could not bind to 169.254.239.237 - [WinError 10049] The requested address is not valid in its context
+[2024-12-14 21:26:14,126] 1114 aioice.ice - INFO - Connection(0) Could not bind to 169.254.11.175 - [WinError 10049] The requested address is not valid in its context
+[2024-12-14 21:26:14,128] 1114 aioice.ice - INFO - Connection(0) Could not bind to 169.254.176.242 - [WinError 10049] The requested address is not valid in its context
+[2024-12-14 21:26:14,261] 1114 aioice.ice - INFO - Connection(0) Check CandidatePair(('192.168.1.9', 51319) -> ('192.168.1.9', 56626)) State.FROZEN -> State.WAITING
+[2024-12-14 21:26:14,262] 520 streamlit_webrtc.webrtc - INFO - ICE connection state is checking
+[2024-12-14 21:26:14,262] 1114 aioice.ice - INFO - Connection(0) Check CandidatePair(('192.168.1.9', 51319) -> ('192.168.1.9', 56626)) State.WAITING -> State.IN_PROGRESS
+[2024-12-14 21:26:15,961] 1114 aioice.ice - INFO - Connection(0) Check CandidatePair(('192.168.1.9', 51319) -> ('192.168.1.9', 56626)) State.IN_PROGRESS -> State.SUCCEEDED
+[2024-12-14 21:26:22,262] 1114 aioice.ice - INFO - Connection(0) ICE completed
+[2024-12-14 21:26:22,299] 520 streamlit_webrtc.webrtc - INFO - ICE connection state is completed
+[2024-12-14 21:26:22,471] 1114 aioice.ice - INFO - Connection(0) Discovered peer reflexive candidate Candidate(md6nPKZXIB 1 udp 1845504255 2401:4900:1f2a:1a7d:bb6e:5169:7f06:a022 56627 typ prflx)
+[2024-12-14 21:26:22,471] 1114 aioice.ice - INFO - Connection(0) Check CandidatePair(('2401:4900:1f2a:1a7d:bb6e:5169:7f06:a022', 51317) -> ('2401:4900:1f2a:1a7d:bb6e:5169:7f06:a022', 56627)) State.WAITING -> State.IN_PROGRESS
+[2024-12-14 21:26:22,473] 1114 aioice.ice - INFO - Connection(0) Check CandidatePair(('2401:4900:1f2a:1a7d:bb6e:5169:7f06:a022', 51317) -> ('2401:4900:1f2a:1a7d:bb6e:5169:7f06:a022', 56627)) State.IN_PROGRESS -> State.SUCCEEDED
+[2024-12-14 21:26:22,535] 1114 aioice.ice - INFO - Connection(0) Discovered peer reflexive candidate Candidate(D9ujmg0C5c 1 udp 1845504255 2401:4900:1f2a:1a7d:748c:f038:f149:1146 56627 typ prflx)
+[2024-12-14 21:26:22,535] 1114 aioice.ice - INFO - Connection(0) Check CandidatePair(('2401:4900:1f2a:1a7d:748c:f038:f149:1146', 51318) -> ('2401:4900:1f2a:1a7d:748c:f038:f149:1146', 56627)) State.WAITING -> State.IN_PROGRESS
+[2024-12-14 21:26:22,538] 1114 aioice.ice - INFO - Connection(0) Check CandidatePair(('2401:4900:1f2a:1a7d:748c:f038:f149:1146', 51318) -> ('2401:4900:1f2a:1a7d:748c:f038:f149:1146', 56627)) State.IN_PROGRESS -> State.SUCCEEDED
+[2024-12-14 21:26:32,637] 174 streamlit_webrtc.webrtc - INFO - Track audio ended
+[2024-12-14 21:26:32,638] 174 streamlit_webrtc.webrtc - INFO - Track video ended
+[2024-12-14 21:26:32,644] 520 streamlit_webrtc.webrtc - INFO - ICE connection state is closed
